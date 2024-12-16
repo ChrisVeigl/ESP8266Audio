@@ -63,6 +63,7 @@ class AudioOutputI2S : public AudioOutput
     int lsb_justified;
     bool i2sOn;
     int dma_buf_count;
+    int dac_sample_count;
     int use_apll;
     bool use_mclk;
     bool swap_clocks;
